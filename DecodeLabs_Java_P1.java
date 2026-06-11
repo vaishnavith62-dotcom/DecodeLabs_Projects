@@ -11,9 +11,9 @@ public class DecodeLabs_Java_P1 {
 
         boolean playAgain = true;
 
-        System.out.println("====================================");
+        System.out.println("************************************");
         System.out.println("      NUMBER GUESSING GAME");
-        System.out.println("====================================");
+        System.out.println("************************************");
 
         while (playAgain) {
 
@@ -56,13 +56,13 @@ public class DecodeLabs_Java_P1 {
                             score = 0;
                         }
 
-                        System.out.println("\n====================================");
+                        System.out.println("\n***********************************");
                         System.out.println("Congratulations!");
                         System.out.println("You guessed the correct number.");
                         System.out.println("Target Number : " + targetNumber);
                         System.out.println("Attempts      : " + attempts);
                         System.out.println("Final Score   : " + score);
-                        System.out.println("====================================");
+                        System.out.println("***********************************");
                     }
 
                 }
